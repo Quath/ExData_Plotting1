@@ -57,7 +57,7 @@ lines(df2$FullDate, df2$Sub_metering_2, col="red")
 lines(df2$FullDate, df2$Sub_metering_3, col="blue")
 legend("topright", 
        legend=c("Sub metering 1", "sub metering 2", "sub metering 3"), 
-       col=c("black", "red", "blue")
+       col=c("black", "red", "blue"), lty=1
 )
 
 # Fourth and last subplot
